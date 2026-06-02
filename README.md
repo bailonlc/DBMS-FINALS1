@@ -30,3 +30,7 @@ npx serve .
 python -m http.server
 ```
 *(Then, open your browser and navigate to `http://localhost:8000`)*
+
+Members: 
+Bailon, Lance Steven
+Puno, Prince Michael
