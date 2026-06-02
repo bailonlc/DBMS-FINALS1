@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D_MANDEM | Mechanical Keyboards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">
+            <span class="logo-main">MANDEM</span>
+            <span class="logo-sub">Mechanical Keyboards</span>
+        </a>
+        <nav>
+            <a href="#products">Shop</a>
+            <a href="#products" data-filter="switches">Switches</a>
+            <a href="#products" data-filter="keycaps">Keycaps</a>
+            <a href="#about">About</a>
+        </nav>
+        <button class="cart-btn" id="cart-btn">
+            CART <span class="cart-badge" id="cart-count">0</span>
+        </button>
+    </header>
+
+    <!-- Marquee Strip -->
+    <div class="marquee-wrap">
+        <div class="marquee-track" id="marquee">
+            <span class="marquee-item">Free shipping over ₱5,000 <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Authentic Mechanical Switches <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">COD Available <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Ships from Pampanga <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">6-Months Warranty <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Premium Keycap Sets <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Lubed & Ready Switches <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Free shipping over ₱5,000 <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Authentic Mechanical Switches <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">COD Available <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Ships from Pampanga <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">6-Months Warranty <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Premium Keycap Sets <span class="marquee-dot">◆</span></span>
+            <span class="marquee-item">Lubed & Ready Switches <span class="marquee-dot">◆</span></span>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="key-grid">
+            <div class="key">ESC</div>
+            <div class="key">TAB</div>
+            <div class="key">CTRL</div>
+            <div class="key">⌘</div>
+            <div class="key">ENTER</div>
+            <div class="key">SHIFT</div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">Est. 2026 — Premium Peripherals</p>
+            <h1 class="hero-title">
+                Feel Every
+                <span>Keystroke.</span>
+            </h1>
+            <p class="hero-body">
+                Hand-picked mechanical keyboards, keycap sets, and switches for typists, coders, and gamers who refuse to settle. Every click, every clack intentional.
+            </p>
+            <a href="#products" class="hero-cta">
+                Shop All Products <span class="arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products">
+        <div class="section-header">
+            <div>
+                <p class="section-label">Our Collection</p>
+                <h2 class="section-title">The Lineup</h2>
+            </div>
+            <span class="section-count" id="product-count">49</span>
+        </div>
+
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+            <button class="cat-tab active" data-cat="all">All <span class="tab-count" id="tab-count-all">49</span></button>
+            <button class="cat-tab" data-cat="keyboard">Keyboards <span class="tab-count" id="tab-count-keyboard">28</span></button>
+            <button class="cat-tab" data-cat="keycaps">Keycaps <span class="tab-count" id="tab-count-keycaps">14</span></button>
+            <button class="cat-tab" data-cat="switches">Switches <span class="tab-count" id="tab-count-switches">7</span></button>
+        </div>
+
+        <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-inner">
+            <div class="about-left">
+                <p class="section-label">Our Story</p>
+                <h2 class="about-title">Built by<br><span>Enthusiasts.</span><br>For Everyone.</h2>
+                <div class="about-accent-line"></div>
+                <p class="about-body">
+                    D_MANDEM was born out of a simple frustration: finding authentic mechanical keyboards and components in the Philippines was either overpriced, sketchy, or both. We're a team of keyboard addicts based in Pampanga who decided to fix that.
+                </p>
+                <p class="about-body">
+                    Every board, switch, and keycap set we carry has been personally tested by our team. We don't list anything we wouldn't use ourselves. From budget friendly entry boards to high-end enthusiast builds we've got your hands covered.
+                </p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-num">49</span>
+                        <span class="stat-label">Products Listed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">3</span>
+                        <span class="stat-label">Categories</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">PH</span>
+                        <span class="stat-label">Local Shipping</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="about-card">
+                    <div class="about-card-icon">⌨️</div>
+                    <h3 class="about-card-title">Keyboards</h3>
+                    <p class="about-card-body">From beginner friendly budget boards to full aluminum gasket mount customs. Hot swap, wired, wireless all walks of the hobby.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-card-icon">🎨</div>
+                    <h3 class="about-card-title">Keycap Sets</h3>
+                    <p class="about-card-body">Curated keycap sets in PBT, ABS, SA, DSA, Cherry, and KAT profiles. Whether you're after clean or colorful we carry it.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-card-icon">🔩</div>
+                    <h3 class="about-card-title">Switches</h3>
+                    <p class="about-card-body">Linear, tactile, clicky sold per switch or per pack. Sourced from trusted brands like Gateron, Cherry, Kailh, and Akko.</p>
+                </div>
+                <div class="about-card about-card-highlight">
+                    <div class="about-card-icon">📦</div>
+                    <h3 class="about-card-title">COD Available</h3>
+                    <p class="about-card-body">Cash on Delivery available nationwide. Free shipping on orders over ₱5,000. Ships from Pampanga within 1–3 business days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-brand">D_MANDEM</div>
+        <p class="footer-note">© 2026 D_MANDEM · Pampanga, PH · All rights reserved</p>
+    </footer>
+
+    <!-- Cart Overlay + Drawer -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="drawer-header">
+            <h2 class="drawer-title">Your Cart</h2>
+            <button class="drawer-close" id="drawer-close">✕</button>
+        </div>
+        <div class="drawer-items" id="drawer-items"></div>
+        <div class="drawer-footer">
+            <div class="total-row">
+                <span class="total-label">Total</span>
+                <div class="total-amount"><small>₱</small><span id="cart-total">0.00</span></div>
+            </div>
+            <button class="btn-checkout" onclick="alert('Checkout not included in this demo.')">Proceed to Checkout</button>
+            <button class="btn-clear" id="clear-btn">Clear Cart</button>
+        </div>
+    </div>
+
+    <!-- Product Info Popup -->
+    <div id="popup-overlay"></div>
+    <div id="product-popup">
+        <button class="popup-close" id="popup-close-btn">✕</button>
+        <div class="popup-inner">
+            <div class="popup-img-side">
+                <img id="popup-img" src="" alt="">
+            </div>
+            <div class="popup-info-side">
+                <p class="popup-tag" id="popup-tag"></p>
+                <h2 class="popup-name" id="popup-name"></h2>
+                <p class="popup-price" id="popup-price"></p>
+                <p class="popup-desc" id="popup-desc"></p>
+                <p class="popup-specs-title">Specifications</p>
+                <div id="popup-specs"></div>
+                <button class="popup-add-btn" id="popup-add-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>  
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span class="toast-icon">✓</span>
+        <span class="toast-msg" id="toast-msg">Added to cart!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
